@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Scoop Ice Cream</title>
+    <style>
+        header {
+            background-color: #f9e2c8;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 30px;
+            border-bottom: 3px solid #e4b48c;
+        }
+
+        header img {
+            width: 50px;
+            height: 50px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: #fff3e0;
+            text-align: center;
+            padding: 10px;
+            border-bottom: 2px solid #e4b48c;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: brown;
+            background-color: #f28c8c;
+            font-weight: bold;
+            margin: 0 10px;
+            padding: 8px 15px;
+            border-radius: 12px;
+            display: inline-block;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        form {
+            text-align: center;
+            margin-bottom: 70px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            background-color: #fff8ee;
+            padding: 6px;
+        }
+
+        button {
+            background-color: #f28c8c;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 12px;
+            padding: 8px 14px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            background-color: #f9e2c8;
+            text-align: center;
+            padding: 15px;
+            border-top: 3px solid #e4b48c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpeg" alt="Sweet Scoop logo">
+        <h1>Sweet Scoop Ice Cream</h1>
+    </header>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+    </div>
+
+    <main>
+        <form action="menu_view.html">
+            <h2>Welcome Back!</h2>
+
+            Username:<br>
+            <input type="text" name="username"><br><br>
+
+            Password:<br>
+            <input type="password" name="password"><br><br>
+
+            <input type="checkbox"> Forgot Password<br><br>
+
+            <button type="submit">Login</button>
+        </form>
+    </main>
+
+    <footer>
+        © 2026 Sweet Scoop Ice Cream
+    </footer>
+</body>
+</html>
