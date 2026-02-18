@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Scoop Ice Cream</title>
+    <style>
+        header {
+        background-color: #f9e2c8;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 15px 30px;
+        border-bottom: 3px solid #e4b48c;
+        }
+
+        header img {
+            width: 50px;
+            height: 50px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: #fff3e0;
+            text-align: center;
+            padding: 10px;
+            border-bottom: 3px solid #e4b48c;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: brown;
+            background-color: #f28c8c;
+            font-weight: bold;
+            margin: 0 10px;
+            padding: 8px 15px;
+            border-radius: 12px;
+            display: inline-block;
+        }
+
+        .content-box{
+            margin: 40px auto;
+            padding: 6px 10px;
+            width: 850px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            background-color: #fff8ee;
+        }
+
+        .content-box h2{
+            text-align: center;
+        }
+
+        .season-container{
+            text-align: center;
+        }
+
+        select {
+            background-color: #fff8ee;   
+            border-radius: 10px;
+            padding: 6px 10px;
+            border: 2px solid #e4b48c;
+        }
+
+        .card {
+            background-color: #ffffff;
+            width: 240px;
+            height: 400px;
+            border-radius: 20px;
+            padding: 15px;
+            margin: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            display: inline-block;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .card img {
+            width: 50%;
+            height: 50%;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .customize {
+            background-color: #f28c8c;
+            border-radius: 12px;
+            padding: 8px 14px;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .seasonal-card {
+            background-color: #ffffff;
+            width: 180px;
+            height: 300px;
+            border-radius: 20px;
+            padding: 15px;
+            margin: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            display: inline-block;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .seasonal-card img{
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+
+        .add-button{
+            background-color: #f28c8c;
+            color: #ffffff;
+            font-weight: bold;
+            border-radius: 12px;
+            padding: 8px 14px; 
+            border: none;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .remove-button{
+            background-color: #c94c4c;
+            color: #ffffff;
+            font-weight: bold;
+            border-radius: 12px;
+            padding: 8px 14px; 
+            border: none;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        button:hover{
+            cursor:pointer;
+        }
+
+        footer {
+            background-color: #f9e2c8;
+            text-align: center;
+            padding: 15px;
+            border-top: 3px solid #e4b48c;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <img src="logo.jpeg" alt="Sweet Scoop logo">
+        <h1>Sweet Scoop Ice Cream</h1>
+    </header>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+
+    </div>
+
+    <main>
+        <div class = "content-box season-container">
+            <label>Current season:<br></label>
+            <select>
+                <option>Winter</option>
+                <option>Fall</option>
+                <option>Spring</option>
+                <option>Summer</option>
+            </select>
+        </div>
+
+        <section class = "content-box card-layout">
+            <h2>Available Flavours</h2>
+
+            <div class = "card">
+                <div class = "flavour">
+                    <h3>Vanilla Bean</h3>
+                    <p class = "category"><b>Category:</b> Classic</p>
+                    <img src = "Picture1.webp" alt = "Ice Cream">
+                    <p class = "desc">Rich vanilla bean flavour with a creamy smooth finish</p>
+                    <p class = "price">$3.99 - $6.99</p>
+                    <p class = "dietary">Gluten-Free</p>
+                    <a href = "customize_order.html" class = "customize"><b>Customize</b></a>
+                </div>
+            </div>
+
+            <div class = "card">
+                <div class = "flavour">
+                    <h3>Chocolate Fudge Swirl</h3>
+                    <p class = "category"><b>Category:</b> Signature</p>
+                    <img class = "icecream-photo" src = "Picture1.webp" alt = "Ice Cream">
+                    <p class = "desc">Dark chocolate base with ribbons of silky fudge</p>
+                    <p class = "price">$4.49 - $7.49</p>
+                    <p class = "dietary">Contains Dairy</p>
+                    <a href = "customize_order.html" class = "customize"><b>Customize</b></a>
+                </div>
+            </div>
+
+            <div class = "card">
+                <div class = "flavour">
+                    <h3>Strawberry Bliss</h3>
+                    <p class = "category"><b>Category:</b> Fruit</p>
+                    <img class = "icecream-photo" src = "Picture1.webp" alt = "Ice Cream">
+                    <p class = "desc">Fresh strawberry puree mixed into a sweet cream base</p>
+                    <p class = "price">$4.29 - $7.29</p>
+                    <p class = "dietary">Nut-Free</p>
+                    <a href = "customize_order.html" class = "customize"><b>Customize</b></a>
+                </div>
+            </div>
+
+            <div class = "card">
+                <div class = "flavour">
+                    <h3>Mint Chocolate Chip</h3>
+                    <p class = "category"><b>Category:</b> Classic</p>
+                    <img class = "icecream-photo" src = "Picture1.webp" alt = "Ice Cream">
+                    <p class = "desc">Rich vanilla bean flavour with a creamy smooth finish</p>
+                    <p class = "price">$3.99 - $6.99</p>
+                    <p class = "dietary">Gluten-Free</p>
+                    <a href = "customize_order.html" class = "customize"><b>Customize</b></a>
+                </div>
+            </div>
+
+            <div class = "card">
+                <div class = "flavour">
+                    <h3>Cookies & Cream</h3>
+                    <p class = "category"><b>Category:</b> Signature</p>
+                    <img class = "icecream-photo" src = "Picture1.webp" alt = "Ice Cream">
+                    <p class = "desc">Classic vanilla ice cream loaded with chocolate cookie pieces</p>
+                    <p class = "price">$4.39 - $7.39</p>
+                    <p class = "dietary">Vegetarian</p>
+                    <a href = "customize_order.html" class = "customize"><b>Customize</b></a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class = "content-box season-container">
+            <h2>Seasonal Specials</h2>
+
+            <div class = "seasonal-card">
+                <div class = "flavour">
+                    <h3>Peppermint Snow</h3>
+                    <img src = "Picture1.webp" alt = "Ice Cream">
+                    <p class = "price">$5.99</p>
+                    <button class = "add-button">Add</button>
+                    <button class = "remove-button">Remove</button>
+                </div>
+            </div>
+
+            <div class = "seasonal-card">
+                <div class = "flavour">
+                    <h3>Caramel Apple Crunch</h3>
+                    <img src = "Picture1.webp" alt = "Ice Cream">
+                    <p class = "price">$6.49</p>
+                    <button class = "add-button">Add</button>
+                    <button class = "remove-button">Remove</button>
+                </div>
+            </div>
+
+            <div class = "seasonal-card">
+                <div class = "flavour">
+                    <h3>Maple Pecan Delight</h3>
+                    <img src = "Picture1.webp" alt = "Ice Cream">
+                    <p class = "price">$6.29</p>
+                    <button class = "add-button">Add</button>
+                    <button class = "remove-button">Remove</button>
+                </div>
+            </div>
+
+    </section>
+
+    </main>
+
+    <footer>
+        © 2026 Sweet Scoop Ice Cream
+    </footer>
+
+</body>
+</html>
