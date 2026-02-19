@@ -55,13 +55,13 @@
             margin-bottom: 70px;
         }
 
-        input[type="text"],
-        input[type="password"] {
+        input[type="text"], input[type="password"] {
             background-color: #fff8ee;
+            border-color: #e4b48c;
             padding: 6px;
         }
 
-        button {
+        .button {
             background-color: #f28c8c;
             color: white;
             font-weight: bold;
@@ -69,10 +69,7 @@
             border-radius: 12px;
             padding: 8px 14px;
             cursor: pointer;
-        }
-
-        button:hover {
-            opacity: 0.9;
+            text-decoration: none;
         }
 
         footer {
@@ -94,18 +91,16 @@
     </div>
 
     <main>
-        <form action="menu_view.html">
+        <form>
             <h2>Welcome Back!</h2>
-
-            Username:<br>
+            Username:
+            <br>
             <input type="text" name="username"><br><br>
-
-            Password:<br>
+            Password:
+            <br>
             <input type="password" name="password"><br><br>
-
             <input type="checkbox"> Forgot Password<br><br>
-
-            <button type="submit">Login</button>
+            <a class="button" href="menu_view.html">Login</a>
         </form>
     </main>
 
