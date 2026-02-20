@@ -113,7 +113,7 @@ input[type="text"], input[type="password"] {
     justify-content: center;
     margin: 0 auto;
     align-items: center;
-    max-width: 1000px;
+    max-width: 1100px;
     padding: 20px; 
 }
 
@@ -189,6 +189,7 @@ input[type="text"], input[type="password"] {
 .customize-button {
     background-color: #f28c8c;
     border-radius: 12px;
+    font-weight: bold;
     padding: 8px 14px;
     text-decoration: none;
     color: #ffffff;
