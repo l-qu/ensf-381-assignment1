@@ -1,92 +1,14 @@
+<!--Group 8
+    Lindsey Quong (30245714) 
+    Gianna Kong (30241947)-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet Scoop Ice Cream</title>
-    <style>
-        header {
-            background-color: #f9e2c8;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            padding: 15px 30px;
-            border-bottom: 3px solid #e4b48c;
-        }
-
-        header img {
-            width: 50px;
-            height: 50px;
-        }
-
-        header h1 {
-            margin: 0;
-        }
-
-        .navbar {
-            background-color: #fff3e0;
-            text-align: center;
-            padding: 10px;
-            border-bottom: 3px solid #e4b48c;
-        }
-
-        .navbar a {
-            text-decoration: none;
-            color: brown;
-            background-color: #f28c8c;
-            font-weight: bold;
-            margin: 0 10px;
-            padding: 8px 15px;
-            border-radius: 12px;
-            display: inline-block;
-        }
-       
-        .container{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            margin: 0 auto;
-            align-items: center;
-            max-width: 1000px;
-            padding: 20px; 
-        }
-
-        .container img{
-            width: 100%;
-        }
-
-        .banner{
-            display: flex;
-            max-width: 1000px;
-            object-fit: cover;
-        }
-
-        .submit-button{
-            background-color: #f28c8c;
-            color: #ffffff;
-            font-weight: bold;
-            border-radius: 12px;
-            padding: 8px 14px; 
-            border: none;
-        }
-
-        .finish-button{
-            background-color: #f28c8c;
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: bold;
-            border-radius: 15px;
-            padding: 8px 14px; 
-            border: none;
-        }
-
-        footer {
-            background-color: #f9e2c8;
-            text-align: center;
-            padding: 15px;
-            border-top: 3px solid #e4b48c;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -99,12 +21,12 @@
         <a href="menu_view.html">Menu</a>
     </div>
 
-    <main class = "container">
-        <div class = "container">
+    <main>
+        <div class = "customize-content-box">
             <img src="Picture2.jpeg" alt = "Ice Creams">
             <br>
             <h2>Vanilla Dream</h2>
-            <form class = "container">
+            <form class = "customize-content-box">
                 <label><b>Choose Type</b></label>
                 <br>
                 <input type = "radio" name = "type">
@@ -112,13 +34,13 @@
                 <input type = "radio" name = "type">
                 <label>Cone</label>
                 <br>
-                <button class = "submit-button">Submit Selection</button>
+                <button class = "customize-submit-button">Submit Selection</button>
             </form>
         </div>
 
-        <div class = "container">
+        <div class = "customize-content-box">
             <h2>Chocolate Bliss</h2>
-            <form class = "container">
+            <form class = "customize-content-box">
                 <label><b>Select Toppings</b></label>
                 <br>
                 <input type = "checkbox">
@@ -128,11 +50,11 @@
                 <input type = "checkbox">
                 <label>Caramel</label>
                 <br>
-                <button class = "submit-button">Submit Selection</button>
+                <button class = "customize-submit-button">Submit Selection</button>
             </form>
 
             <br>
-            <a href = "order_summary.html" class = "finish-button"><button class = "finish-button">Finish Order</button></a>
+            <a href = "order_summary.html" class = "customize-finish-button"><button class = "customize-finish-button">Finish Order</button></a>
         </div>
     </main>
 

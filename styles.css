@@ -1,0 +1,281 @@
+/* index and header/navbar styling */
+
+header {
+    background-color: #f9e2c8;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+    border-bottom: 3px solid #e4b48c;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #fff3e0;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 3px solid #e4b48c;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: brown;
+    background-color: #f28c8c;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.index-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+.index-content-box {
+    background-color: #fff8ee;
+    border-radius: 25px;
+    padding: 25px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.index-content-box h2 {
+    text-align: center;
+}
+
+.about-section {
+    width: 80%;
+    text-align: center;
+}
+
+.flavors-section {
+    width: 18%;
+}
+
+footer {
+    background-color: #f9e2c8;
+    text-align: center;
+    padding: 15px;
+    border-top: 3px solid #e4b48c;
+}
+
+/* login styling */
+
+.login-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.login-form {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+input[type="text"], input[type="password"] {
+    background-color: #fff8ee;
+    border-color: #e4b48c;
+    padding: 6px;
+}
+
+.login-button {
+    background-color: #f28c8c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* customize order styling */
+
+.customize-content-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1000px;
+    padding: 20px; 
+}
+
+.customize-content-box img{
+    width: 50%;
+}
+
+.customize-submit-button{
+    background-color: #f28c8c;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px 14px; 
+    border: none;
+}
+
+.customize-finish-button{
+    background-color: #f28c8c;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 8px 14px; 
+    border: none;
+}
+
+/* menu view styling*/
+
+.menu-content-box{
+    margin: 40px auto;
+    padding: 6px 10px;
+    width: 850px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff8ee;
+}
+
+.menu-content-box h2{
+    text-align: center;
+}
+
+.season-container{
+    text-align: center;
+}
+
+.menu-select {
+    background-color: #fff8ee;   
+    border-radius: 10px;
+    padding: 6px 10px;
+    border: 2px solid #e4b48c;
+}
+
+.menu-card {
+    background-color: #ffffff;
+    width: 220px;
+    height: 380px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.menu-card img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.customize-button {
+    background-color: #f28c8c;
+    border-radius: 12px;
+    padding: 8px 14px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.seasonal-card {
+    background-color: #ffffff;
+    width: 180px;
+    height: 280px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.seasonal-card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.menu-add-button{
+    background-color: #f28c8c;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px 14px; 
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-remove-button{
+    background-color: #c94c4c;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px 14px; 
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-add-button:hover{
+    cursor:pointer;
+}
+
+.menu-remove-button:hover{
+    cursor:pointer;
+}
+
+/* order summary styling */
+
+.order-main h2 {
+    text-align: center;
+}
+
+.order-main table {
+    margin: 20px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #fff8ee;
+}
+
+.order-main th, td {
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.order-button {
+    background-color: #f28c8c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 14px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.order-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 10%;
+    margin: 20px auto;
+}
